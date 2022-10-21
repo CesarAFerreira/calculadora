@@ -12,7 +12,7 @@
 .calculadora {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    top: 30%;
+    top: 20%;
     left: 41%;
     transform: translate(-50% -50%);
     border-radius: 15px;
@@ -40,6 +40,9 @@
     border: none;
     color: #fff;
 }
+.btn1:hover{
+    background-color: rgba(255, 0, 0, 0.575);
+}
 .btn2 {
     width: 106px;
     height: 50px;
@@ -48,6 +51,9 @@
     background-color: rgb(31 31 31);
     border: none;
     color: #fff;
+}
+.btn2:hover{
+    background-color: black;
 }
 
 #resultado {
